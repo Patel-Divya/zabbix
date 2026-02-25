@@ -1,5 +1,5 @@
 
-#  Upgrade Happens
+#  Upgrade 
 * Repo: https://repo.zabbix.com/zabbix/7.4/release/ubuntu/pool/main/z/zabbix-release/zabbix-release_latest%2Bubuntu24.04_all.deb
 * Method: https://www.skynats.com/blog/upgrade-zabbix-6-4-to-7-ubuntu-24/
 *  install **7.4 repo package**
