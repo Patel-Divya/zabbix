@@ -20,7 +20,7 @@ zabbix-sql-scripts
 
 ---
 
-# Rollback Strategy
+# Rollback Plan
 
 ## Scenario A — 7.4 Packages Installed, DB NOT Upgraded
 
