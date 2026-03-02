@@ -8,12 +8,7 @@
 * Upgrade **only Zabbix packages**:
 
 ```bash
-sudo apt install --only-upgrade \
-zabbix-server-mysql \
-zabbix-frontend-php \
-zabbix-agent \
-zabbix-apache-conf \
-zabbix-sql-scripts
+sudo apt install --only-upgrade zabbix-server-mysql zabbix-frontend-php zabbix-agent zabbix-apache-conf zabbix-sql-scripts
 ```
 
 * Start server → database schema upgrade occurs automatically.
@@ -43,12 +38,7 @@ sudo apt update
 3. Install 6.4 packages (with version lock to match previous):
 
 ```bash
-sudo apt install \
-zabbix-server-mysql=1:6.4.21-1+ubuntu22.04 \
-zabbix-frontend-php=1:6.4.21-1+ubuntu22.04 \
-zabbix-agent=1:6.4.21-1+ubuntu22.04 \
-zabbix-apache-conf=1:6.4.21-1+ubuntu22.04 \
-zabbix-sql-scripts=1:6.4.21-1+ubuntu22.04
+sudo apt install zabbix-server-mysql=1:6.4.21-1+ubuntu22.04 zabbix-frontend-php=1:6.4.21-1+ubuntu22.04 zabbix-agent=1:6.4.21-1+ubuntu22.04 zabbix-apache-conf=1:6.4.21-1+ubuntu22.04 zabbix-sql-scripts=1:6.4.21-1+ubuntu22.04
 ```
 
 
@@ -80,12 +70,7 @@ sudo apt update
 4. Reinstall 6.4 packages (use `--allow-downgrades` if needed):
 
 ```bash
-sudo apt install --allow-downgrades \
-zabbix-server-mysql=1:6.4.21-1+ubuntu22.04 \
-zabbix-frontend-php=1:6.4.21-1+ubuntu22.04 \
-zabbix-agent=1:6.4.21-1+ubuntu22.04 \
-zabbix-apache-conf=1:6.4.21-1+ubuntu22.04 \
-zabbix-sql-scripts=1:6.4.21-1+ubuntu22.04
+sudo apt install --allow-downgrades zabbix-server-mysql=1:6.4.21-1+ubuntu22.04 zabbix-frontend-php=1:6.4.21-1+ubuntu22.04 zabbix-agent=1:6.4.21-1+ubuntu22.04 zabbix-apache-conf=1:6.4.21-1+ubuntu22.04 zabbix-sql-scripts=1:6.4.21-1+ubuntu22.04
 ```
 
 5. Restore database from backup:
